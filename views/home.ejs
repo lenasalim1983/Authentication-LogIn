@@ -1,0 +1,19 @@
+<!--This page allows user to choose whether to register or to log in-->
+
+<%- include('partials/header') %>
+
+<div class="jumbotron centered">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Secrets</h1>
+    <p class="lead">Don't keep your secrets, share them anonymously!</p>
+    <hr>
+    <!--the button below goes to route:/register . This route should be handled by the server-->
+    <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+    <!--the button below goes to route:/login . This route should be handled by the server-->
+    <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
